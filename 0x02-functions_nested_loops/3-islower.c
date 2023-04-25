@@ -2,8 +2,9 @@
 
 /**
  *_islower - Used to check for lowercase characters;
- *@c: This is the input paratemer that we need to check if its lower case or not
- *Return: It will return 1 if the character is lower case and return zero if the charcter is not lower case
+ *@c: we need to check if its lower case or not
+ *Return: it will return 1 if lower and zero if not
+
  */
 
 int _islower(int c)
@@ -15,6 +16,5 @@ int _islower(int c)
 	}
 	else
 		return (0);
-
 
 }
