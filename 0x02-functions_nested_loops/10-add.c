@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 
 /**
  *add -  add two integers
@@ -8,13 +8,7 @@
  */
 
 int add(int a, int b)
-
 {
-	int result;
-	result = a + b;
-
-	_putchar(result + '0');
-	return (result);
-
-
+	_putchar(a + b + '0');
+	return (0);
 }
